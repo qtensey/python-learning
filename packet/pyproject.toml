@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypkg"
+version = "0.1.0"
+description = "Demo package for local publish"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "You", email = "you@example.com" }]
+dependencies = []
+
+[project.scripts]
+mycli = "mypkg.cli:main"   # консольная команда mycli
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mypkg = ["py.typed"]

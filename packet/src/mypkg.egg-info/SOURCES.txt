@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/mypkg/__init__.py
+src/mypkg/cli.py
+src/mypkg/core.py
+src/mypkg.egg-info/PKG-INFO
+src/mypkg.egg-info/SOURCES.txt
+src/mypkg.egg-info/dependency_links.txt
+src/mypkg.egg-info/entry_points.txt
+src/mypkg.egg-info/top_level.txt
