@@ -1,0 +1,3 @@
+{"event": "user_login", "user_id": 1, "timestamp": "2025-10-14T10:00:00Z"}
+{"event": "click", "user_id": 1, "target": "buy_button", "timestamp": "2025-10-14T10:01:15Z"}
+{"event": "user_logout", "user_id": 1, "timestamp": "2025-10-14T10:05:30Z"}

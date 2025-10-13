@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # copy big binary file (video)
-BASE_DIR = Path(__file__).resolve().parent    # the folder where thw current .py file is located
+BASE_DIR = Path(__file__).resolve().parent    # the folder where the current .py file is located
 FILE_DIR = BASE_DIR / "media" / "movie.mp4"
 COPY_FILE = BASE_DIR / "media" / "copy.mp4"
 
